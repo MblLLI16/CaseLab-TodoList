@@ -1,5 +1,5 @@
 # CaseLab-TodoList
-## Проект "Список дел" для CaseLab
+## Проект "Список дел" для CaseLab с релизом на GitHub Pages 
 
 ### Инструкция
 
