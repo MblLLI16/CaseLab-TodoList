@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ToDo List</h1>
+    </header>
+
+    <main>
+        <form autocomplete="off">
+            <label>
+                <input id="new-todo" name="todo" type="text" placeholder="new todo" />
+            </label>
+            <select id="user-todo" name="user">
+                <option disabled selected>select user</option>
+            </select>
+            <button class="addTask-button">Add Todo</button>
+        </form>
+
+        <div class="error-form">
+            <p class="error-message"></p>
+        </div>
+
+        <ul id="todo-list">
+            <!-- <li class="todo-item">
+                <input type="checkbox" class="checkbox">
+                <span class="task">Example Task</span>
+                <span class="close">X</span>
+            </li> -->
+        </ul>
+        
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
